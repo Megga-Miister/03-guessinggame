@@ -1,24 +1,24 @@
 * {
-    outline: 0.5px solid red;
-    box-sizing:border-box;
+  outline: 0.5px solid red;
+  box-sizing:border-box;
 }
 
 body {
-    margin: 5px;    
-    background-color:rgba(78, 80, 218, 0.808);
-    color: rgba(2, 26, 78, 0.884);
+  margin: 5px;    
+  background-color:rgba(78, 80, 218, 0.808);
+  color: rgba(2, 26, 78, 0.884);
 }
 
 header {
-    font-size: 90px;
-    font-weight: bold;
+  font-size: 90px;
+  font-weight: bold;
 }
 
 h2 {
-    color:rgb(16, 16, 187);
+  color:rgb(16, 16, 187);
 }
 
 h3 {
-    color:lightskyblue;
+  color:lightskyblue;
 }
 
