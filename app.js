@@ -58,20 +58,36 @@ console.log("Question 5: Do I have a dog? User answer: ", responseFive);
 
 //asking question 6 and directing user to too high or too low prompts, user allowed four answer attempts
 var responseSix = parseInt (prompt ("Can you guess how many times I have been to Disneyland?"));
-var question6answer = 2;
-var counter = 0;
+var question6Answer = 2; //if six is broken change this
+var counterQ6 = 0;
 
 //create counter in while loop so user can only attempt answer four times
-while (responseSix !== 2 && counter < 4) {
-    counter++;
+while (responseSix !== 2 && counterQ6 < 4) {
+    counterQ6++;
     if (responseSix > 2) {
         responseSix = parseInt (prompt("That is actually more times then I've gone. Guess again."));
     } else {
         responseSix = parseInt (prompt("I've actually been there more times. Try guessing again."));
     }
 }
-//correct answer for question 6 and making sure user used less attempts
+//correct answer for question 6 and alert for user to read
 if (question6Answer === 2 ) {
     alert ("That is correct! Good guess.")
+}
+
+//asking question 7, answers and limiting the user attempts to six
+var question7Answers = ["CANADA", "TAIWAN", "JAPAN", "THAILAND"];
+var counterQ7 = 0;
+var arrayID = 0;
+
+var responseSeven = prompt ("Besides America, can you name a country I've traveled to?") .toUpperCase();
+
+while (responseSeven !== question7Answers.arrayID && arrayID > 3 && counterQ7 < 6) {
+    arrayID++;
+    if (responseSeven > 3) {
+         responseSeven = (prompt ("Nope. You only have 6 attempts in total. So try again.") .toUpperCase());
+     } else {
+        responseSeven = (prompt ("That is correct! I've been to Canada, Taiwan, Japan and Thailand.") .toUpperCase());
+     } 
 }
 
