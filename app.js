@@ -55,3 +55,23 @@ var responseFive = prompt ("Do I have a dog?") .toUpperCase();
     };
 // console log for to show question with user answer
 console.log("Question 5: Do I have a dog? User answer: ", responseFive);
+
+//asking question 6 and directing user to too high or too low prompts, user allowed four answer attempts
+var responseSix = parseInt (prompt ("Can you guess how many times I have been to Disneyland?"));
+var question6answer = 2;
+var counter = 0;
+
+//create counter in while loop so user can only attempt answer four times
+while (responseSix !== 2 && counter < 4) {
+    counter++;
+    if (responseSix > 2) {
+        responseSix = parseInt (prompt("That is actually more times then I've gone. Guess again."));
+    } else {
+        responseSix = parseInt (prompt("I've actually been there more times. Try guessing again."));
+    }
+}
+//correct answer for question 6 and making sure user used less attempts
+if (question6Answer === 2 ) {
+    alert ("That is correct! Good guess.")
+}
+
