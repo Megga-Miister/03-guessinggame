@@ -65,7 +65,6 @@ console.log("Question 5: Do I have a dog? User answer: ", responseFive);
 
 //asking question six and directing user to too high or too low prompts, user allowed four answer attempts
 var responseSix = parseInt (prompt ("Can you guess how many times I have been to Disneyland?"));
-var question6Answer = 2; //if six is broken change this
 var counterQ6 = 0;
 
 //create counter in while loop so user can only attempt answer four times
@@ -78,7 +77,7 @@ while (responseSix !== 2 && counterQ6 < 3) {
   }
 }
 //correct answer for question 6 and alert for user to read
-if (question6Answer === 2 ) {
+if (responseSix === 2 ) {
   alert ("That is correct! I went once at the age of 7 and more recently at 26.");
   totalScore++;
 }
@@ -106,4 +105,4 @@ while (counterQ7 < 5 && answerStatus === false) {
   }
 
 //user score message
-alert (userName + ", you scored " + totalScore + " out of 7 questions." )
+alert (userName + ", you got " + totalScore + " out of 7 questions correct." )
