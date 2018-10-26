@@ -40,7 +40,7 @@ question2();
 function question3(){
   var responseThree = prompt ("Have I met Jeff Bezos?") .toUpperCase();
   if (responseThree === "Y" || responseThree === "YES") {
-    alert ("You are right. I met him at a reading event at the EMP, now MOPOP, while I was in elementary.");
+    alert ("You are right. I met him at a reading event at the EMP, now MOPOP, while I was in elementary school.");
     totalScore++;
     } else if (responseThree === "N" || responseThree === "NO") {
     alert ("Surprisingly, I actually met him at a reading event that was held at the EMP (now MOPOP), while I was in elementary school.")
@@ -111,10 +111,9 @@ while (counterQ7 < 5 && answerStatus === false) {
   for (var arrayID = 0; arrayID < question7Answers.length; arrayID++) {
     if (responseSeven === question7Answers[arrayID]) {
       answerStatus = true;
-      break;
     }
   }
-    if (answerStatus === true) {
+    if (answerStatus) {
       alert("That is correct! I've been to Canada, Taiwan, Japan and Thailand." );
       totalScore++;
     } else {
