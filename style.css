@@ -1,24 +1,126 @@
-* {
+/* * {
   outline: 0.5px solid red;
   box-sizing:border-box;
-}
+} */
 
 body {
   margin: 5px;    
-  background-color:rgba(78, 80, 218, 0.808);
-  color: rgba(2, 26, 78, 0.884);
+  background-color:rgba(66, 134, 244, 0.808);
+  color: rgba(5, 35, 99, 0.884);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  line-height: 1.5em;
 }
 
 header {
-  font-size: 90px;
   font-weight: bold;
+  background-color: rgb(216, 231, 255);
+
+  border: 5px;
+  padding: 15px;
+
+  text-align: center;
 }
 
-h2 {
-  color:rgb(16, 16, 187);
+p {
+  margin-bottom: 5;
+  margin-top: 0;
 }
 
-h3 {
-  color:lightskyblue;
+ul {
+  margin-bottom: 5;
 }
 
+ol {
+  margin-bottom: 5;
+  margin-top: 0;
+}
+
+#Picture {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#box1 h2 {
+  color: rgba(5, 76, 228, 0.884);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#box1 h3 {
+  color: rgba(77, 124, 226, 0.884);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#box2 {
+  background-color: rgb(216, 231, 255);
+  margin-bottom: 10;
+  margin-top: 40;
+}
+#box2 h2 {
+  color: rgba(5, 76, 228, 0.884);
+  margin-bottom: 10;
+  margin-top: 40;
+}
+#box2 h3 {
+  color: rgba(77, 124, 226, 0.884);
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 1%;
+}
+#box2 h4{
+  color: rgba(2, 41, 124, 0.884);
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 5%;
+}
+#box2 p {
+  margin-left: 2%;
+}
+
+#box3 {
+  background-color: rgb(216, 231, 255);
+  margin-bottom: 0;
+  margin-top: 40;
+}
+#box3 h2 {
+  color: rgba(5, 76, 228, 0.884);
+  margin-bottom: 0;
+  margin-top: 20;
+}
+#box3 h3 {
+  color: rgba(77, 124, 226, 0.884);
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 1%;
+}
+#box3 h4{
+  color: rgba(2, 41, 124, 0.884);
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 5%;
+}
+
+#box4 {
+  background-color: rgb(216, 231, 255);
+  margin-bottom: 0;
+  margin-top: 40;
+}
+#box4 h2 {
+  color: rgba(5, 76, 228, 0.884);
+  margin-bottom: 0;
+}
+
+#box5 {
+  background-color: rgb(216, 231, 255);
+  margin-bottom: 0;
+  margin-top: 40;
+}
+#box5 h2 {
+  color: rgba(5, 76, 228, 0.884);
+  margin-bottom: 0;
+}
