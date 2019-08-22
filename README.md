@@ -1,5 +1,5 @@
-# 03-guessinggame
-Lab 3 - Guessing game with 2 more questions and loops
+# Guessing Game
+Guessing game with 2 more questions and loops
 
 
 change logic questions to utilize function
